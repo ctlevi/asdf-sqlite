@@ -34,7 +34,7 @@ get_source() {
 	local long_version
 	long_version="$(get_long_version "$version")"
 	local release_year
-	release_year="$(get_release_year "$version")"
+	release_year="2025"
 
 	local sqlite_tarball="sqlite-autoconf-$long_version.tar.gz"
 	local sqlite_url="https://www.sqlite.org/$release_year/$sqlite_tarball"
